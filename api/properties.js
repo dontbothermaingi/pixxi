@@ -11,7 +11,6 @@ export default async function handler(req, res) {
         body: JSON.stringify({
           listingType: "NEW",
           size: 1000,
-          sort: "ID",
           sortType: "DESC",
         }),
       }
